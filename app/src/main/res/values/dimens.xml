@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="icon_size_medium_200dp">200dp</dimen>
+    <dimen name="icon_size_medium_256dp">256dp</dimen>
+    <dimen name="icon_size_medium_300dp">300dp</dimen>
+    <dimen name="text_material_large">20sp</dimen>
+    <dimen name="item_margin">16dp</dimen>
+</resources>

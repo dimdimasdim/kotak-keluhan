@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.co.dimas.android.firebaserealtimedb.MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="@dimen/icon_size_medium_200dp"
+            android:layout_height="@dimen/icon_size_medium_200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"/>
+
+        <EditText
+            android:id="@+id/edt_suara_anda"
+            android:layout_marginLeft="@dimen/item_margin"
+            android:layout_marginRight="@dimen/item_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/label_suara_anda"/>
+
+        <Button
+            android:id="@+id/btn_submit_suara_anda"
+            android:layout_below="@+id/edt_suara_anda"
+            android:layout_marginTop="@dimen/item_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            style="@style/GeneralSubmitButton" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
